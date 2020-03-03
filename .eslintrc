@@ -1,0 +1,47 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier", "jest"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {
+    "page": true,
+    "browser": true,
+    "context": true,
+    "jestPuppeteer": true
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-console": "warn",
+    "yoda": "error",
+    "semi": "error",
+    "space-before-blocks": "error",
+    "no-new-object": "error",
+    "no-array-constructor": "error",
+    "no-new-wrappers": "error",
+    "no-nested-ternary": "error",
+    "no-unneeded-ternary": "error",
+    "wrap-regex": "error",
+    "array-bracket-newline": ["error", "consistent"],
+    "array-bracket-spacing": ["error", "never"],
+    "array-element-newline": ["error", "consistent"],
+    "brace-style": ["error", "1tbs"],
+    "comma-style": ["error", "last"],
+    "computed-property-spacing": ["error", "never"],
+    "consistent-this": ["error", "that"],
+    "no-bitwise": "error",
+    "no-tabs": "error",
+    "space-infix-ops": "error",
+    "switch-colon-spacing": "error",
+    "no-unused-vars": "warn",
+    "no-unreachable": "warn",
+    "prettier/prettier": "warn",
+    "no-prototype-builtins": "off"
+  }
+}

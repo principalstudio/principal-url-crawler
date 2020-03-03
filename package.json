@@ -1,0 +1,38 @@
+{
+  "name": "@principalstudio/url-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/principalstudio/principal-image-sizes-analyzer.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "run": "node test.js"
+  },
+  "bin": {
+    "url-crawler": "./bin.js"
+  },
+  "author": "Principal",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "proseWrap": "always",
+    "printWidth": 100
+  },
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "jsdom": "^16.2.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "1.19.1"
+  }
+}
