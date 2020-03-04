@@ -1,7 +1,7 @@
 {
   "name": "@principalstudio/url-crawler",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Crawl url of targeted website",
   "repository": {
     "type": "git",
     "url": "https://github.com/principalstudio/principal-url-crawler.git"
