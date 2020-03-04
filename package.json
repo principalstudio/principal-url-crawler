@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/principalstudio/principal-image-sizes-analyzer.git"
+    "url": "https://github.com/principalstudio/principal-url-crawler.git"
   },
   "main": "index.js",
   "scripts": {
