@@ -1,6 +1,6 @@
 {
   "name": "@principalstudio/url-crawler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Crawl url of targeted website",
   "repository": {
     "type": "git",

@@ -55,10 +55,12 @@ const crallAllUrl = args => {
     c.on('drain', function() {
       console.log('Crawl finished');
       if (args.output) {
-        save(urls, args.output);
+        save(urls, args.output).then(() => {
+          resolve(urls);
+        });
+      } else {
+        resolve(urls);
       }
-
-      resolve(urls);
     });
   });
 };
